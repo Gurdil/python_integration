@@ -70,7 +70,7 @@ Delete all pyc file :
 virtual environment with pycharm :
 --------------
 
-create a virtual environment :
+### creation :
 
 * --no-site-packages to a empty virtual environment
 * -p path/to/python/to/use the python used in the virtual environment 
