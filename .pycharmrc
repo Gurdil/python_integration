@@ -1,0 +1,2 @@
+source ~/.bashrc
+source ./my_env/bin/activate

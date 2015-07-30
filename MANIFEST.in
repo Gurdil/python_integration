@@ -1,0 +1,3 @@
+include README.md
+include epydocConfig.ini pytest.ini
+include requirements.txt
