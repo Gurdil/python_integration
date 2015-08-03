@@ -12,29 +12,29 @@ class Antenna:
         """
         The constructor
 
-        @param station: The station were the antenna is linked
-        @type station: L{Station<Station>}
+        :param station: The station were the antenna is linked
+        :type station: L{Station<Station>}
 
         """
         self.station = Station()
 
     def add(self, a=5, b=-1):
         """
-        simple add
+        simple add lolilol
 
-        @param a: first arg
-        @type a: int
-        @param b: second arg
-        @type b: int
-        @rtype: int
-        @return: this method return the value a+b+1
+        :param a: first arg
+        :type a: int
+        :param b: second arg
+        :type b: int
+        :rtype: int
+        :return: this method return the value a+b+1
 
-        @note:
+        :note:
 
             >>> Antenna().add(1, 1)
             3
 
-        @see: L{station<Station>}
+        :see: Station
 
         """
         c = 1
