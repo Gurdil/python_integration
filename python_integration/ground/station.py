@@ -11,6 +11,12 @@ class Station(Speaking):
     """
     pass
 
+    def lala(self):
+        """
+            Say lala
+        """
+        print('lala')
+
 
 def convert(lat, long):
     """

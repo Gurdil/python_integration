@@ -13,7 +13,7 @@ class Antenna:
         The constructor
 
         :param station: The station were the antenna is linked
-        :type station: L{Station<Station>}
+        :type station: Station
 
         """
         self.station = Station()
@@ -29,13 +29,24 @@ class Antenna:
         :rtype: int
         :return: this method return the value a+b+1
 
-        :note:
+        :Example:
+
 
             >>> Antenna().add(1, 1)
             3
 
-        :see: Station
+        :see: `Station`
 
         """
         c = 1
         return a + b + c
+
+    def change_station(self, station):
+        """
+        Change the station linked to this antenna
+
+        :param station: The new station were the antenna is linked
+        :type station: Station
+
+        """
+        self.station = Station()
