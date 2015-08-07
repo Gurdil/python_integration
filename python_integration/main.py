@@ -16,6 +16,9 @@ def show():
     s.speak()
     station.speak()
 
+if __name__ == '__main__':
+    show()
+
 # def readNode(node, size):
 #     print('\t'*size + node.nodeName, end="")
 #     if node.nodeValue != None:
