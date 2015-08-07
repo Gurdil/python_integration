@@ -3,6 +3,7 @@ Python Integration
 
 [![Build Status](https://travis-ci.org/Gurdil/python_integration.svg?branch=master)](https://travis-ci.org/Gurdil/python_integration)
 [![Coverage Status](https://coveralls.io/repos/Gurdil/python_integration/badge.svg?branch=master&service=github)](https://coveralls.io/github/Gurdil/python_integration?branch=master)
+[![Documentation Status](https://readthedocs.org/projects/python-integration/badge/?version=latest)](https://readthedocs.org/projects/python-integration/?badge=latest)
 
 Example of tool used :
 
