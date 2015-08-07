@@ -5,6 +5,6 @@ python:
 install: "pip install -r requirements.txt"
 # command to run tests
 script:
-        - coverage run --source=python_integration setup.py test
+        - python setup.py test
 after_success:
         - coveralls
