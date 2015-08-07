@@ -21,6 +21,6 @@ Module contents
 ---------------
 
 .. automodule:: python_integration
-:members:
-        :undoc-members:
-        :show-inheritance:
+    :members:
+    :undoc-members:
+    :show-inheritance:

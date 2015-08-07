@@ -12,6 +12,6 @@ Module contents
 ---------------
 
 .. automodule:: python_integration.space
-:members:
-        :undoc-members:
-        :show-inheritance:
+    :members:
+    :undoc-members:
+    :show-inheritance:
