@@ -35,6 +35,21 @@ class PyDoc(Command):
         raise SystemExit(errno)
 
 
+class Sphinx_Doc(Command):
+    user_options = []
+
+    def initialize_options(self):
+        pass
+
+    def finalize_options(self):
+        pass
+
+    def run(self):
+        import subprocess
+        # subprocess.call(['make --directory=doc_sphinx/ apidoc'], shell=True)
+        errno = subprocess.call(['make --directory=doc_sphinx/ html'], shell=True)
+        raise SystemExit(errno)
+
 import python_integration
 
 setup(
@@ -47,7 +62,7 @@ setup(
     author_email='jbphilippe@live.fr',
     description='An empty project to test python tool : py.test, epydoc, setup.py...',
     long_description=open('README.md').read(),
-    cmdclass={'test': PyTest, 'doc': PyDoc},
+    cmdclass={'test': PyTest, 'pydoc': PyDoc, 'doc': Sphinx_Doc},
     include_package_data=True,
     entry_points={
         'console_scripts': [
