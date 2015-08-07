@@ -1,6 +1,8 @@
 Python Integration
 ========================================================
 
+[![Build Status](https://travis-ci.org/Gurdil/python_integration.svg?branch=master)](https://travis-ci.org/Gurdil/python_integration)
+
 Example of tool used :
 
 * Epydoc for doc
