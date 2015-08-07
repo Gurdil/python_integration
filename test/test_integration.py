@@ -8,3 +8,6 @@ def test_myoutput(capsys): # or use "capfd" for fd-level
 
     out, err = capsys.readouterr()
     assert out == "I'm a Speaking class.\nI'm a Satellite class.\nI'm a Station class.\n"
+
+def test_fail():
+    assert 0
