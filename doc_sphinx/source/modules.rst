@@ -4,4 +4,4 @@ python_integration
 .. toctree::
 :maxdepth: 4
 
-       python_integration
+      python_integration
