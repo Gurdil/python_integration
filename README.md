@@ -13,7 +13,7 @@ Example of tool used :
 
 Pypi server:
 ------------
-see: https://pypi.python.org/pypi/pypiserver
+see: [Pypi server tutorial](https://pypi.python.org/pypi/pypiserver)
 
 You need to create a .htaccess to store the user/password information at the root of the server.
 
