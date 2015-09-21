@@ -99,3 +99,12 @@ Change in : File > Settings... > Tools > Terminal > shell path
 
 
 Ce code est sous licence WTFPL.
+
+sphinx
+--------
+
+the apidoc target has been added in the makefile and make dependant to html target
+
+uncomment and change this line in conf.py :
+
+    sys.path.insert(0, os.path.abspath('../..'))
